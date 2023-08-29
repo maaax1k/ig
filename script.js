@@ -6,6 +6,8 @@ function calculate(){
   var book = document.getElementById('book');
   good = document.getElementById('good');
   var sum = Number (document.getElementById('sum').value) - 1000;
+  var btn = document.getElementById('btn');
+  btn.classList.add('hide');
   if(!kcal.checked){
     result += 500;
   }

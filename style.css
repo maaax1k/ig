@@ -1,0 +1,13 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form div{
+  margin: 7px 5px;
+}

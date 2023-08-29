@@ -1,5 +1,5 @@
 function calculate(){
-  var result = 0;
+  var result = Math.floor(Math.random()*10+1)*100;;
   var kcal = document.getElementById('kkal');
   var brf = document.getElementById('brf');
   var fit = document.getElementById('fit');

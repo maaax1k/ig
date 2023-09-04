@@ -107,12 +107,11 @@ body{
   align-items: center;
   justify-content: center;
   color: var(--light-black);
-  background-image: url(assets/back2.jpg);
+  background-image: url(assets/bbb.png);
   background-position: center;
-  background-size: 100%;
+  background-size: 120%;
   margin: 0;
   padding: 0;
-  animation: back 5s ease-in infinite;
 }
 .title {
 	font-size: 50px;

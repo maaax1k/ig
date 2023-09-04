@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello, World!</title>
+    <title>IYS</title>
     <link rel="stylesheet" href="style.css"/>
   </head>
-  <body>
-      <h1 class="title">ImproveYS</h1>
+  <body id="body">
+      <h1 class="title" style="margin-bottom: 5px;">ImproveYS</h1>
       <div class="form">
-        <div>
-          <input type="checkbox" name="kkal" id="kkal"/>
+        <span class="man" id="man"></span>
+        <div style="margin-top: 0px;">
+          <input type="checkbox" name="kkal" id="kkal" style="display: none;"/>
+          <label for="kkal" class="kcal"></label>
           <label for="kkal">1200kcal</label>
         </div>
         <div>
-          <input type="checkbox" name="brf" id="brf"/>
+          <input type="checkbox" name="brf" id="brf" style="display: none;"/>
+          <label for="brf" class="brf"></label>
           <label for="brf">breakfast</label>
         </div>
         <div>
-          <input type="checkbox" name="fit" id="fit" value="fit"/>
+          <input type="checkbox" name="fit" id="fit" value="fit" style="display: none;"/>
+          <label for="fit" class="fit"></label>
           <label for="fit">fitness</label>
         </div>
         <div>
-          <input type="checkbox" name="book" id="book" value=""/>
+          <input type="checkbox" name="book" id="book" value="" style="display: none;"/>
+          <label for="book" class="book"></label>
           <label for="book">book</label>
         </div>
         <div>
-          <input type="checkbox" name="good" id="good" value=""/>
-          <label for="book">100% true</label>
+          <input type="checkbox" name="good" id="good" value="" style="display: none;"/>
+          <label for="good" class="good"></label>
+          <label for="good">100% true</label>
         </div>
         <div>
           <input type="number" name="sum" id="sum" value=""/>
-          <label for="sum">money</label>
+          <label for="sum" style="padding: 0 3px;">money</label>
         </div>
-        <button class="btn" id="btn" onclick="calculate();">Day Result</button>
+        <button class="btn" id="btn" onclick="calculate();">
+          <span class="zr"></span>
+          <span class="fr"></span>
+          <span class="sr"></span>
+          <span class="cont"> DAY RESULT </span>
+          <span class="sr down p"></span>
+          <span class="fr down pl"></span>
+          <span class="zr down pll"></span>
+        </button>
       </div>
       <h1 id="result"></h1>
       <h2 id="result1"></h2>
       <h2 id="result2"></h2>
       <script src="script.js"></script>
+      <script src="man.js"></script>
   </body>
 </html>
